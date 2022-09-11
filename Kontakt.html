@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 align="center">Kontakt informacije</h1>
+    <ul>
+      <li><strong>Broj telefona:</strong> 098 9253 966</li>
+      <li><strong>Adresa:</strong> Lanište 17c</li>
+      <li><strong>E-mail:</strong> dhrgic@gmail.com</li>
+    </ul>
+    <hr />
+    <form action="mailto:dhrgic@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Vaše ime:</label>
+      <input type="text" name="Vaše ime" /><br />
+      <label for="email">Vaša e-mail adresa:</label>
+      <input type="email" name="Vaša email adresa" id="" /><br />
+      <label for="prompt">
+        Želite li da vaše podatke koristima za buduća istraživanja?</label
+      >
+      <input type="checkbox" /><br />
+      <label for="tekst_poruke"> Ovdje upišite Vašu poruku:</label> <br />
+      <textarea name="poruka" rows="10" columns="30"></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
